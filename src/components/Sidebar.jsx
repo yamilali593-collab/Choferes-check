@@ -4,8 +4,8 @@ import { useUIStore } from '../store/index'
 
 const MENU_ITEMS = [
   { icon: Home, label: 'Dashboard', href: '/' },
-  { icon: Search, label: 'Buscar Conductor', href: '/search' },
-  { icon: Users, label: 'Gestionar Conductores', href: '/drivers' },
+  { icon: Search, label: 'Buscar Personal', href: '/search' },
+  { icon: Users, label: 'Gestionar Personal', href: '/drivers' },
   { icon: FileText, label: 'Reportes', href: '/reports' },
   { icon: BarChart3, label: 'Analytics', href: '/analytics' },
   { icon: Settings, label: 'Configuración', href: '/settings' },

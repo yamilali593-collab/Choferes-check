@@ -60,7 +60,7 @@ export const SearchPage = () => {
         {/* Header */}
         <div>
           <h1 className="text-4xl font-bold text-gray-800 mb-2">
-            Buscar Conductor
+            Buscar Personal
           </h1>
           <p className="text-gray-600">
             Busca por nombre o CURP para verificar la información del conductor
