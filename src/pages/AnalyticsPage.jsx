@@ -19,10 +19,10 @@ export const AnalyticsPage = () => {
         {/* Header */}
         <div>
           <h1 className="text-4xl font-bold text-gray-800 mb-2">
-            Analytics
+            Estadísticas
           </h1>
           <p className="text-gray-600">
-            Estadísticas y análisis del sistema
+            Métricas y comportamiento del personal registrado
           </p>
         </div>
 

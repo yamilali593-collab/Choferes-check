@@ -7,7 +7,7 @@ const MENU_ITEMS = [
   { icon: Search, label: 'Buscar Personal', href: '/search' },
   { icon: Users, label: 'Gestionar Personal', href: '/drivers' },
   { icon: FileText, label: 'Reportes', href: '/reports' },
-  { icon: BarChart3, label: 'Analytics', href: '/analytics' },
+  { icon: BarChart3, label: 'Estadísticas', href: '/estadísticas' },
   { icon: Settings, label: 'Configuración', href: '/settings' },
   { icon: HelpCircle, label: 'Ayuda', href: '/help' },
 ]
