@@ -5,7 +5,7 @@ import {
   DriversPage,
   ReportsPage,
   LoginPage,
-  AnalyticsPage,
+  HistorialLaboralPage,
   NotFoundPage,
 } from './pages'
 import { ProtectedRoute } from './utils/ProtectedRoute'
@@ -62,7 +62,7 @@ function App() {
           path="/analytics"
           element={
             <ProtectedRoute>
-              <AnalyticsPage />
+              <HistorialLAboralPAge />
             </ProtectedRoute>
           }
         />
