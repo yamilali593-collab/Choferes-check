@@ -161,7 +161,7 @@ export const DriversPage = () => {
         <Modal
           isOpen={isModalOpen}
           onClose={() => setIsModalOpen(false)}
-          title="Registrar Nuevo Conductor"
+          title="Registrar Nuevo Personal"
           size="lg"
         >
           <form onSubmit={handleSubmit} className="space-y-4">
@@ -253,7 +253,7 @@ export const DriversPage = () => {
             </div>
             <div className="flex gap-3 pt-4 border-t">
               <Button variant="primary" type="submit" className="flex-1">
-                Registrar Conductor
+                Registrar Personal
               </Button>
               <Button
                 variant="outline"
