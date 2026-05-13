@@ -24,18 +24,7 @@ export const driverService = {
       setTimeout(() => {
         resolve({
           success: true,
-          data: {
-            id: driverId,
-            name: 'Carlos Mendoza',
-            phone: '5551234567',
-            curp: 'MEMC880715HDFNSL09',
-            licensePlate: 'XYZ-1234',
-            email: 'carlos@email.com',
-            address: 'Puebla, Puebla',
-            riskLevel: 'safe',
-            verificationDate: '2024-01-15',
-            reports: [],
-          },
+data: null
         })
       }, 600)
     })

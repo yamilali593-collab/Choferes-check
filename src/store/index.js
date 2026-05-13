@@ -9,50 +9,7 @@ export const useAuthStore = create((set) => ({
 }))
 
 export const useDriverStore = create((set, get) => ({
-  drivers: [
-    {
-      id: 1,
-      name: 'Carlos Mendoza',
-      phone: '5551234567',
-      curp: 'MEMC880715HDFNSL09',
-      licensePlate: 'XYZ-1234',
-      email: 'carlos@email.com',
-      address: 'Puebla, Puebla',
-      references: ['Ref1', 'Ref2'],
-      riskLevel: 'safe',
-      reports: [],
-      createdAt: '2024-01-15',
-    },
-    {
-      id: 2,
-      name: 'Juan Rivera',
-      phone: '5559876543',
-      curp: 'RIVJ850320HDFNRL05',
-      licensePlate: 'ABC-5678',
-      email: 'juan@email.com',
-      address: 'Mexico City, CDMX',
-      references: ['Ref3', 'Ref4'],
-      riskLevel: 'warning',
-      reports: [{ type: 'accident', description: 'Minor accident reported', date: '2024-03-01' }],
-      createdAt: '2024-02-20',
-    },
-    {
-      id: 3,
-      name: 'Rosa García',
-      phone: '5552468135',
-      curp: 'GARG900512HDFNRS03',
-      licensePlate: 'DEF-9012',
-      email: 'rosa@email.com',
-      address: 'Guadalajara, Jalisco',
-      references: ['Ref5', 'Ref6'],
-      riskLevel: 'danger',
-      reports: [
-        { type: 'theft', description: 'Theft accusation', date: '2024-02-10' },
-        { type: 'debt', description: 'Outstanding debt', date: '2024-01-05' }
-      ],
-      createdAt: '2024-01-10',
-    },
-  ],
+drivers: [],
   searchResults: [],
   selectedDriver: null,
 
