@@ -153,7 +153,7 @@ export const ReportsPage = () => {
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
-                Conductor *
+                Personal *
               </label>
               <select
                 value={formData.driverId}
@@ -163,7 +163,7 @@ export const ReportsPage = () => {
                 className="input-field"
                 required
               >
-                <option value="">Selecciona un conductor</option>
+                <option value="">Selecciona un personal</option>
                 {drivers.map((driver) => (
                   <option key={driver.id} value={driver.id}>
                     {driver.name} - {driver.curp}

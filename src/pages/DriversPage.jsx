@@ -130,7 +130,7 @@ export const DriversPage = () => {
                             : 'Peligroso'}
                       </div>
                       </td>
-                      
+
                     <td className="px-6 py-4">
                       <span className="text-sm font-medium text-gray-600">
                         {driver.reports.length}
@@ -155,44 +155,6 @@ export const DriversPage = () => {
 
         {/* Risk Summary */}
         <div className="grid grid-cols-3 gap-6">
-          {[
-            {
-              level: 'safe',
-              label: 'Seguros',
-              count: drivers.filter(d => d.riskLevel === 'safe').length,
-              icon: CheckCircle,
-              color: 'success',
-            },
-            {
-              level: 'warning',
-              label: 'Advertencia',
-              count: drivers.filter(d => d.riskLevel === 'warning').length,
-              icon: AlertCircle,
-              color: 'warning',
-            },
-            {
-              level: 'danger',
-              label: 'Peligrosos',
-              count: drivers.filter(d => d.riskLevel === 'danger').length,
-              icon: AlertCircle,
-              color: 'danger',
-            },
-          ].map((item) => {
-            const Icon = item.icon
-            return (
-              <Card key={item.level}>
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="text-sm text-gray-600">{item.label}</p>
-                    <p className={`text-3xl font-bold text-${item.color}-600 mt-2`}>
-                      {item.count}
-                    </p>
-                  </div>
-                  <Icon size={32} className={`text-${item.color}-600`} />
-                </div>
-              </Card>
-            )
-          })}
         </div>
 
         {/* Add Driver Modal */}
