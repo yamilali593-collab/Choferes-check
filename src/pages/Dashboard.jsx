@@ -51,38 +51,6 @@ export const Dashboard = () => {
 
         {/* Main Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* Resumen de Riesgos */}
-          <Card title="Resumen de Riesgos" subtitle="Clasificación por nivel de riesgo">
-            <div className="space-y-4">
-              <div className="flex items-center justify-between p-4 bg-success-50 rounded-lg">
-                <div>
-                  <p className="text-sm font-medium text-gray-600">Seguros</p>
-                  <p className="text-2xl font-bold text-success-600">{riskBreakdown.safe}</p>
-                </div>
-                <div className="w-12 h-12 bg-success-100 rounded-lg flex items-center justify-center">
-                  <CheckCircle className="text-success-600" size={24} />
-                </div>
-              </div>
-              <div className="flex items-center justify-between p-4 bg-warning-50 rounded-lg">
-                <div>
-                  <p className="text-sm font-medium text-gray-600">Advertencia</p>
-                  <p className="text-2xl font-bold text-warning-600">{riskBreakdown.warning}</p>
-                </div>
-                <div className="w-12 h-12 bg-warning-100 rounded-lg flex items-center justify-center">
-                  <AlertCircle className="text-warning-600" size={24} />
-                </div>
-              </div>
-              <div className="flex items-center justify-between p-4 bg-danger-50 rounded-lg">
-                <div>
-                  <p className="text-sm font-medium text-gray-600">Peligroso</p>
-                  <p className="text-2xl font-bold text-danger-600">{riskBreakdown.danger}</p>
-                </div>
-                <div className="w-12 h-12 bg-danger-100 rounded-lg flex items-center justify-center">
-                  <AlertCircle className="text-danger-600" size={24} />
-                </div>
-              </div>
-            </div>
-          </Card>
 
           {/* Actividad Reciente */}
           <Card title="Actividad Reciente" className="lg:col-span-2">
