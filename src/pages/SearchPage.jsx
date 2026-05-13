@@ -75,7 +75,7 @@ export const SearchPage = () => {
         {/* Results */}
         <div>
           <h2 className="text-2xl font-bold text-gray-800 mb-4">
-            {searchResults.length > 0 ? 'Resultados de búsqueda' : 'Todos los conductores'}
+            {searchResults.length > 0 ? 'Resultados de búsqueda' : 'Todo el personal'}
           </h2>
 
           {isLoading ? (
@@ -172,7 +172,7 @@ export const SearchPage = () => {
         <Modal
           isOpen={isModalOpen}
           onClose={() => setIsModalOpen(false)}
-          title="Detalles del Conductor"
+          title="Detalles del Personal"
           size="lg"
         >
           {selectedDriver && (
