@@ -1,11 +1,11 @@
-# ChoferCheck - Plataforma de Verificación de Conductores
+# ChoferCheck - Plataforma de Verificación de Personal
 
-Plataforma nacional para verificación de conductores de Uber y servicios de taxi en México.
+Plataforma nacional para verificación de personal
 
 ## 🚀 Características
 
-- ✅ Búsqueda de conductores por nombre o CURP
-- ✅ Gestión completa de conductores
+- ✅ Búsqueda de personal por nombre o CURP
+- ✅ Gestión completa de personal
 - ✅ Sistema de reportes (deuda, robo, accidentes, etc.)
 - ✅ Dashboard con estadísticas en tiempo real
 - ✅ Análisis y gráficos interactivos
@@ -103,22 +103,22 @@ chofer-check-project/
 
 ## 💡 Funcionalidades Principales
 
-### 🔍 Búsqueda de Conductores
+### 🔍 Búsqueda de Personal
 - Busca por nombre o CURP
-- Visualiza información completa del conductor
+- Visualiza información completa del personal
 - Ve el historial de reportes
 - Clasificación de riesgo visual
 
-### 👥 Gestión de Conductores
-- Registra nuevos conductores
+### 👥 Gestión de Personal
+- Registra nuevo personal
 - Edita información existente
 - Elimina registros
-- Vista de tabla con todos los conductores
+- Vista de tabla con todos el personal
 
 ### 📊 Reportes
-- Crea reportes sobre conductores
+- Crea reportes sobre personal
 - Tipos: Deuda, Robo, Abandono, Accidente, Mal Comportamiento
-- Historial de reportes por conductor
+- Historial de reportes por personal
 - Resumen estadístico
 
 ### 📈 Analytics

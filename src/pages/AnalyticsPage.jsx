@@ -30,7 +30,7 @@ export const AnalyticsPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <StatCard
             icon={BarChart3}
-            label="Conductores Verificados"
+            label="Personal Verificado"
             value={stats.driversVerified}
             change={12}
           />
